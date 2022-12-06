@@ -3,20 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />\
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
-    <button id="changeURL">changeURL</button>
+    <h1 id="Hello">Hello. My Name is Shiva. This is a website dedicated to all the drawings I have made since September 8 2021.</h3>
+    <div class = "title">
+       
     <iframe
       id="embed"
-      src="https://www.instagram.com/p/BFKjVxkBsCC/embed"
+      src=""
       width="400"
-      height="480"
+      height="400"
       frameborder="0"
       scrolling="no"
       allowtransparency="true"
     ></iframe>
+    <div class="writing">
+        <h1 id="day"></h1>
+        <h1 id="time"></h2>
+        </div>
+</div>
+    <button id="changeURL" role="button"><span id="text">Hit the Button!</span><span>Randomize!</span></button>
+    <div>
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+        </g>
+        </svg>
+        </div>
+   
     <script src="script.js"></script>
   </body>
 </html>
