@@ -8,17 +8,21 @@ document.getElementById('changeURL').addEventListener('click', () => {
     let x = Math.floor(Math.random()*445);
     console.log(data[x].url);
     const p = data[x].url;
-   
     const c = data[x].caption;
     const t = data[x].timestamp;
     console.log(t.replace('t',''));
+
+    let matchedText = t.match(/^[^T]*/g);
+    console.log(matchedText);
+    
+    let newCaption = c.match(/^[^#]*/g);
     const e = '/embed';
     const blank = ' ';
     document.getElementById('Hello').innerHTML = blank;
     document.getElementById('embed').src =
       p + "embed";
-    document.getElementById('day').innerHTML = c;
-    document.getElementById('time').innerHTML = b;
+    document.getElementById('day').innerHTML = newCaption;
+    document.getElementById('time').innerHTML = matchedText;
     
   });
 

@@ -5,18 +5,30 @@ body{
 }
 .title{
     display: flex;
-    align-items: center;
+    margin-left: 10%;
 }
 
-.header{
-  background-color: white;
+.nav{
+  list-style: none;
+  color: white;
+  font-size: 20px;
   display: flex;
-  margin-bottom: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
-h1{
+
+.navBar{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.writing{
     color: white;
-    justify-content: center;
-    text-align: center;
+    justify-content: right;
+    text-align: left;
     font-family: 'Space Grotesk', sans-serif;
     margin-left: 5%;
     margin-right: 5%;
@@ -42,7 +54,7 @@ margin-right: 50%;
   -webkit-user-select: none;
   touch-action: manipulation;
   font-family: 'Space Grotesk', sans-serif;
-
+  margin-top: 20px;
 }
 
 #changeURL span:first-child {
