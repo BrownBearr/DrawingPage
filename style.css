@@ -8,6 +8,11 @@ body{
     align-items: center;
 }
 
+.header{
+  background-color: white;
+  display: flex;
+  margin-bottom: 10px;
+}
 h1{
     color: white;
     justify-content: center;

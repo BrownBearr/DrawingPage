@@ -1,12 +1,14 @@
-fetch('https://api.apify.com/v2/datasets/UlgoOKT00qv1NT5Dw/items?token=apify_api_Qp45jyhhsGpkfFWly7hUIumcbkuvR62bC9du')
+fetch('https://api.apify.com/v2/datasets/eumGtWDiXoUGobsOe/items?token=apify_api_Qp45jyhhsGpkfFWly7hUIumcbkuvR62bC9du')
 .then(response=>response.json())
 .then(data=>{
 console.log(data[0]);
 document.getElementById('changeURL').addEventListener('click', () => {
     console.log('hi');
     //Hello, this is a glimpse into my life and the art that has accompnied it. thank you for stopping by on a trip down memory lane.
-    let x = Math.floor(Math.random()*445)
+    let x = Math.floor(Math.random()*445);
+    console.log(data[x].url);
     const p = data[x].url;
+   
     const c = data[x].caption;
     const t = data[x].timestamp;
     console.log(t.replace('t',''));
