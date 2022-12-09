@@ -18,7 +18,7 @@ document.getElementById('changeURL').addEventListener('click', () => {
     let newCaption = c.match(/^[^#]*/g);
     const e = '/embed';
     const blank = ' ';
-    document.getElementById('Hello').innerHTML = blank;
+    //document.getElementById('hello').innerHTML = blank;
     document.getElementById('embed').src =
       p + "embed";
     document.getElementById('day').innerHTML = newCaption;
