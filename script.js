@@ -23,6 +23,7 @@ document.getElementById('changeURL').addEventListener('click', () => {
       p + "embed";
     document.getElementById('day').innerHTML = newCaption;
     document.getElementById('time').innerHTML = matchedText;
+    document.getElementById('intro').innerHTML = blank;
     
   });
 

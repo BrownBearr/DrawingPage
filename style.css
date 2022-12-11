@@ -10,6 +10,7 @@ body{
 
 #time{
   font-size: 20px;
+  font-weight: 300;
 }
 .Heading{
   background-color: white;
@@ -23,6 +24,15 @@ body{
   text-align: left;
   font-size: 15px;
   margin-left: 20px;
+  list-style: none;
+  display: inline;
+}
+#intro{
+  font-family: 'Space Grotesk', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 #day{
@@ -60,7 +70,6 @@ body{
 /* CSS */
 #changeURL {
 margin-left: 50%;
-margin-right: 50%;
   position: relative;
   overflow: hidden;
   border: 1px solid #3737d6;
@@ -76,8 +85,8 @@ margin-right: 50%;
   -webkit-user-select: none;
   touch-action: manipulation;
   font-family: 'Space Grotesk', sans-serif;
-  margin-top: 20px;
-  margin-bottom: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #changeURL span:first-child {
@@ -193,7 +202,10 @@ margin-right: 50%;
       height:80px;
       min-height:80px;
     }
-
+    #changeURL{
+      margin-right: 50%;
+      margin-left: 50%;
+    }
     .title{
       display: grid;
     }
