@@ -202,6 +202,10 @@ margin-left: 50%;
       height:80px;
       min-height:80px;
     }
+
+    #embed{
+      max-width: 100%;
+    }
     #changeURL{
       margin-right: 50%;
       margin-left: 50%;
