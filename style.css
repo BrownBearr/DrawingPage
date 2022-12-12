@@ -17,6 +17,7 @@ body{
   padding: 10px;
   margin-bottom: 10px;
   margin-top: -20px;
+  width: 100%;
 }
 #hello{
   font-family: 'Space Grotesk', sans-serif;
@@ -204,6 +205,9 @@ margin-left: 50%;
     }
 
     #embed{
+      max-width: 100%;
+    }
+    #intro{
       max-width: 100%;
     }
     #changeURL{
